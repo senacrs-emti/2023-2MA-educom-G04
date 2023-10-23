@@ -1,0 +1,15 @@
+header {
+    height: 200px;
+    background-color: #e10000;
+}
+main {
+    background-color: rgb(38, 38, 38);
+    height: 600px;
+}
+footer{
+    background-color:blue;
+    height: 200px;
+}
+.h1-header {
+    text-align: center;
+}
