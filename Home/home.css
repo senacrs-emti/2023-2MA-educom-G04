@@ -24,4 +24,12 @@ footer a{
     color: white;
     text-decoration: none;
     background-color: transparent;
+    display: block;
+    padding-left: 10px;
+}
+footer img{
+    width: 20%;
+    height: 140px;
+    position: absolute;
+    left: 75%;
 }
