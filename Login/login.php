@@ -3,9 +3,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    $con = mysqli_connect("localhost", "root", "", "usuario");
+    $con = mysqli_connect("localhost", "root", "", "cad_usuario");
 
-    $query = "SELECT * FROM usuario WHERE email = '$email'";
+    $query = "SELECT * FROM usuarios WHERE email = '$email'";
     $result = mysqli_query($con, $query);
 
     if ($row = mysqli_fetch_assoc($result)) {

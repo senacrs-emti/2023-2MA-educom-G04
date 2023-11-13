@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 10-Nov-2023 às 15:02
+-- Tempo de geração: 13/11/2023 às 13:01
 -- Versão do servidor: 10.4.17-MariaDB
--- versão do PHP: 7.3.27
+-- Versão do PHP: 7.3.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,34 +24,41 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `usuario`
+-- Estrutura para tabela `usuarios`
 --
 
-CREATE TABLE `usuario` (
-  `Id` int(11) NOT NULL,
-  `Email` varchar(50) NOT NULL,
-  `Senha` varchar(50) NOT NULL
+CREATE TABLE `usuarios` (
+  `ID` int(11) NOT NULL,
+  `Email` varchar(100) NOT NULL,
+  `Senha` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Despejando dados para a tabela `usuarios`
+--
+
+INSERT INTO `usuarios` (`ID`, `Email`, `Senha`) VALUES
+(1, 'jullia@gna', '$2y$10$Z9hs343SXLMCbxlw1FFqtuc5Pcp1GZrFe8Q1BHhMU7DAxAG79FJkG');
 
 --
 -- Índices para tabelas despejadas
 --
 
 --
--- Índices para tabela `usuario`
+-- Índices de tabela `usuarios`
 --
-ALTER TABLE `usuario`
-  ADD PRIMARY KEY (`Id`);
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`ID`);
 
 --
--- AUTO_INCREMENT de tabelas despejadas
+-- AUTO_INCREMENT para tabelas despejadas
 --
 
 --
--- AUTO_INCREMENT de tabela `usuario`
+-- AUTO_INCREMENT de tabela `usuarios`
 --
-ALTER TABLE `usuario`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `usuarios`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -3,9 +3,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
 
-    $con = mysqli_connect('localhost', 'root', '', 'usuario');
+    $con = mysqli_connect('localhost', 'root', '', 'cad_usuario');
 
-    $query = "INSERT INTO usuario (email, senha) VALUES ('$email', '$senha')";
+    $query = "INSERT INTO usuarios (email, senha) VALUES ('$email', '$senha')";
     if (mysqli_query($con, $query)) {
         echo "Cadastro realizado.";
     } else {
