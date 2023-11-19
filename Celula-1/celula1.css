@@ -28,7 +28,10 @@ main p{
 
 footer {
     background-color: #a4d890;
-    height: 200px;
+    height: 300px;
+}
+.footer-1 {
+    padding-top : 4%;
 }
 
 footer a{
