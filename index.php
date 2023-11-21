@@ -5,9 +5,9 @@ include_once '_dados.php';
 include_once '_header.php';
 
 $colecaoCelulas = array(
-    1=> array('nome'=>"Celula A",'descricao'=>'lolololo','img'>'Url da imagem'),
-    2=> array('nome'=>"Celula B",'descricao'=>'lululululu','img'>'Url da imagem'),
-    3=> array('nome'=>"Celula C",'descricao'=>'lalalaalaa','img'>'Url da imagem')
+    1=> array('nome'=>"Celula A",'arquivo'=>'celula1.php','img'>'Url da imagem'),
+    2=> array('nome'=>"Celula B",'arquivo'=>'celula2.php','img'>'Url da imagem'),
+    3=> array('nome'=>"Celula C",'arquivo'=>'celula3.php','img'>'Url da imagem')
 );
 
 
@@ -24,7 +24,7 @@ $colecaoCelulas = array(
                 <div class="card bg-dark text-white" style="max-width: 18rem;  margin-left: 3%; margin-top: 5%;">
                     <img src="https://static.todamateria.com.br/upload/ce/lu/celulaanimal-0.jpg?auto_optimize=low" class="card-img" alt="...">
                     <div class="card-img-overlay">
-                    <h3 class="card-title"><a href="<?php echo $value; ?>">
+                    <h3 class="card-title"><a href="<?php echo $value['arquivo']; ?>">
                         <?php echo $value['nome'];  ?>
                     </a></h3>
                     </div>
