@@ -15,17 +15,17 @@ if( $tipoPagina == 'home'){
 ?>
 <header>
     <h5 class="h5-header"><a href="cadastro.html">Login</a></h5> 
-    <h1 class="h1-header">Título</h1>
+    <h1 class="h1-header">Citologia  </h1>
 </header>
 <?php
 }else{
 ?>
 <header>
-    <h1>Celula X</h1>
+    <h1>Células</h1>
 
-    <h4><a href="celula1.php">celula-1</a></h4>
-    <h4><a href="celula2.php">celula-2</a></h4>
-    <h4><a href="celula3.php">celula-2</a></h4>
+    <h4><a href="celula1.php">Célula Animal</a></h4>
+    <h4><a href="celula2.php">Célula Vegetal</a></h4>
+    <h4><a href="celula3.php">Célula Bacteriana</a></h4>
 </header>
 <?php
 }

@@ -5,9 +5,9 @@ include_once '_dados.php';
 include_once '_header.php';
 
 $colecaoCelulas = array(
-    1=> array('nome'=>"Celula A",'arquivo'=>'celula1.php','img'>'Url da imagem'),
-    2=> array('nome'=>"Celula B",'arquivo'=>'celula2.php','img'>'Url da imagem'),
-    3=> array('nome'=>"Celula C",'arquivo'=>'celula3.php','img'>'Url da imagem')
+    1=> array('nome'=>"Célula Animal",'arquivo'=>'celula1.php','img'>'Url de imagem'),
+    2=> array('nome'=>"Célula Vegetal",'arquivo'=>'celula2.php','img'>'Url da imagem'),
+    3=> array('nome'=>"Célula Bacteriana",'arquivo'=>'celula3.php','img'>'Url da imagem')
 );
 
 
@@ -38,8 +38,8 @@ $colecaoCelulas = array(
             </div>
 
             <div class="texto-1">
-                <h3>Título</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, esse! Enim cum praesentium est excepturi id tenetur doloribus deserunt aliquam itaque consequatur, quae maxime molestiae incidunt, ullam unde atque perferendis.</p>
+                <h4>Organelas celulares </h4>
+                <p>As organelas celulares são as estruturas responsáveis pelo funcionamento da célula. Cada organela desempenha uma função.  </p>
             </div>
     </main>
 <?php
