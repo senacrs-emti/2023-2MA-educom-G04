@@ -1,7 +1,6 @@
 <?php
 $tituloPagina = 'Página principal';
 $tipoPagina = 'home';
-include_once '_dados.php';
 include_once '_header.php';
 
 $colecaoCelulas = array(
