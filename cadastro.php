@@ -1,6 +1,7 @@
 <?php
 $tituloPagina = 'Cadastro';
 $tipoPagina = 'cadastro';
+
 ?>
 
 <body>
