@@ -25,7 +25,12 @@ main p{
     color: white;
     margin: 5%;
 }
-
+main ul ol p {
+    color: black;
+}
+main ul li{
+    color: white;
+}
 main h4{
     color: white;
     margin: 5%;
