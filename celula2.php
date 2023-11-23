@@ -1,5 +1,5 @@
 <?php
-$tituloPagina = 'celula 2';
+$tituloPagina = 'Célula Vegetal';
 $tipoPagina = 'celula2';
 include_once '_header.php';
 ?>

@@ -21,7 +21,7 @@ if( $tipoPagina == 'home'){
 }else{
 ?>
 <header>
-    <h1>Células</h1>
+    <h1><a href="index.php">Citologia</a></h1>
 
     <h4><a href="celula1.php">Célula Animal</a></h4>
     <h4><a href="celula2.php">Célula Vegetal</a></h4>

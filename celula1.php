@@ -1,6 +1,6 @@
 <?php
-$tituloPagina = 'celula 1';
-$tipoPagina = 'celula3';
+$tituloPagina = 'Célula Animal';
+$tipoPagina = 'celula1';
 include_once '_header.php';
 ?>
     <main>
