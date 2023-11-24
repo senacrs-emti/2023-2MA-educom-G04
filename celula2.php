@@ -5,7 +5,7 @@ include_once '_header.php';
 ?>
 <main>
         <div id="imagem-container">
-            <img src="https://static.todamateria.com.br/upload/ce/lu/celula-og.jpg?class=ogImageWide" alt="Imagem" >
+            <img src="./img/Célula Vegetal02.png" alt="Imagem" >
             <div id="info-box">
             <h3><b>Estrutura</b></h3>
                 <ul>

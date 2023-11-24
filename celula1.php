@@ -5,7 +5,7 @@ include_once '_header.php';
 ?>
     <main>
         <div id="imagem-container">
-                <img src="./img/Célula Anima02.png" alt="Imagem" >
+                <img src="./img/Célula Animal02.png" alt="Imagem" >
                 <div id="info-box">
                 <h3><b>Estrutura</b></h3>
                 <ul>
