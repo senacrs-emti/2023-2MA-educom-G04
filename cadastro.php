@@ -1,8 +1,4 @@
-<?php
-$tituloPagina = 'Cadastro';
-$tipoPagina = 'cadastro';
 
-?>
 
 <body>
     <div class="container">

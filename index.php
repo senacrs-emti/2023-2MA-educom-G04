@@ -21,17 +21,19 @@ $colecaoCelulas = array(
                 <div class="card bg-dark text-white" style="max-width: 18rem;  margin-left: 3%; margin-top: 5%;">
                     <img src="./img/<?php echo $value['img']; ?>" class="card-img" alt="...">
                     <div class="card-img-overlay">
-                    <h3 class="card-title"><a href="<?php echo $value['arquivo']; ?>">
+                    <h3 class="card-title"><button><a href="<?php echo $value['arquivo']; ?>">
                         <?php echo $value['nome'];  ?>
-                    </a></h3>
+                    </a></button></h3>
                     </div>
                 </div>
             <?php
         }
 
         ?>
-                
-                
+
+
+
+
             </div>
 
             <div class="texto-1">
