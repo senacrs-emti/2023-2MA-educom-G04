@@ -14,7 +14,7 @@
 if( $tipoPagina == 'home'){
 ?>
 <header>
-    <h5 class="h5-header"><a href="cadastro.php">Login</a></h5> 
+    <h5 class="h5-header"><a href="login.php">Login</a></h5> 
     <h1 class="h1-header">Citologia  </h1>
 </header>
 <?php
